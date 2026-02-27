@@ -9,7 +9,7 @@ import { SpaRedirectHandler } from "@/components/SpaRedirectHandler";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Off Script – Range Portal",
+  title: "Leagues Admin Portal",
   description: "Leagues Administration",
 };
 

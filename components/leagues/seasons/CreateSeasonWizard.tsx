@@ -247,7 +247,7 @@ export function CreateSeasonWizard({ leagueId }: Props) {
     const published: Season = {
       ...season,
       status: "published",
-      leagueLink: `https://demo.offscript.local/join/${season.id}`,
+      leagueLink: `https://leagues.example.com/join/${season.id}`,
       updatedAt: new Date().toISOString(),
     };
     setSeason(published);
