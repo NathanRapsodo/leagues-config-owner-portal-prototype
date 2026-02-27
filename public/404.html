@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Off Script – Range Portal</title>
+    <script>
+      // GitHub Pages SPA redirect trick.
+      // When GitHub Pages serves this 404, we store the intended path in
+      // sessionStorage and redirect to the app root, which restores the route.
+      (function () {
+        var base = "/leagues-config-owner-portal-prototype";
+        var path = window.location.pathname;
+        var relative = path.startsWith(base) ? path.slice(base.length) || "/" : path;
+        var redirect = relative + window.location.search + window.location.hash;
+        sessionStorage.setItem("__spa_redirect__", redirect);
+        window.location.replace(base + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
