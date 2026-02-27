@@ -1,6 +1,6 @@
 import { DB } from "./types";
 
-const STORAGE_KEY = "leagues_admin_v2";
+const STORAGE_KEY = "leagues_admin_v3";
 
 // ─── Fixed IDs (used in generateStaticParams for static export) ───────────────
 

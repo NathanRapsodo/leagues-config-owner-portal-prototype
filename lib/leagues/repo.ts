@@ -1,7 +1,7 @@
 import { DB, League, Season, LeagueEvent } from "./types";
 import { seedIfEmpty } from "./seed";
 
-const STORAGE_KEY = "leagues_admin_v2";
+const STORAGE_KEY = "leagues_admin_v3";
 
 // ─── DB load / save ───────────────────────────────────────────────────────────
 
